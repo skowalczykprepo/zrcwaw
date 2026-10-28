@@ -1,0 +1,33 @@
+# --- Java / Maven (backend) ---
+backend/target/
+backend/data/
+*.class
+*.jar
+!backend/.mvn/wrapper/maven-wrapper.jar
+*.log
+
+# --- Node (frontend) ---
+frontend/node_modules/
+frontend/dist/
+npm-debug.log*
+
+# --- Terraform ---
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/*.tfstate
+terraform/*.tfstate.*
+terraform/*.tfvars
+terraform/*.zip
+terraform/crash.log
+
+# --- Sekrety / srodowisko ---
+.env
+.env.*
+*.pem
+
+# --- IDE / system ---
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db

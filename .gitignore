@@ -1,0 +1,6 @@
+# IDE / system (reguly dla poszczegolnych projektow sa w ich katalogach)
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
