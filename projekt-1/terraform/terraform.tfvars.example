@@ -1,0 +1,9 @@
+# Skopiuj ten plik jako terraform.tfvars (jest w .gitignore) i uzupelnij wartosci.
+
+db_password = "jakieshaslo"
+alert_email = "adres@email.com"
+
+# opcjonalnie:
+# aws_region   = "us-east-1"
+# project_name = "zrcwaw-chat"
+# image_tag    = "latest"
